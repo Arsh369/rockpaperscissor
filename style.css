@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 500px;
+    width: 600px;
+    background-color: #01dfba;
+    border-radius: 10px;
+}
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+}
+.choice{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.choice img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.dis{
+    margin-top: 80px;
+    margin-left: 229px;
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 30px;
+}
+.beats{
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+    border-radius: 30px;
+}
+.score{
+    margin-top: 15px;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.your-score,.comp-score{
+    height: 100px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: pink;
+}
